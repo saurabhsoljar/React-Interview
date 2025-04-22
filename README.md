@@ -316,3 +316,86 @@ et personObj = {
 
 let shallowCopy = Object.assign({}, personObj); 
 let deepCopy = JSON.parse(JSON.stringify(personObj));
+
+# 19. what is an event loop in JavaScript?
+Answer:
+. javaScript is a single-threaded language, which means it can only execute one task at a time.
+. so for this purpose it use stack means global execution context.
+
+# 20. wht i emntic UI?
+Answer: semantic UI used to build UI for app very fastly and easily,we can also say react ui libraries.
+
+List of UI libraries.
+1-Material UI
+2-Ant Design
+3-Semantic UI
+4-Bootstrap
+5-React Bootstrap
+6-redux
+7-Fluent UI
+
+# 21. how  Redux works?
+Answer:
+.Redux is a state management library for JavaScript apps.
+.it is third party libraly.
+.we can use Redux in anywhere like angular,vue,react etc.
+
+Store : where we store all states.
+Components: here we are use states.
+Action: type(increment,decrement) and payload(data).
+Dispatcher: dispatch() is the method used to dispatch action and trigger state changes to the store.
+Reducer: here we can write logic to change the states.
+
+# 22. what is useReducer hook?
+Answer: .useReducer Hook is similar to the useState Hook.
+.useReducer (<reducer>, <initialState>)
+.useReucer Hook returrn the current state and a dispatch methhod.
+
+# 23. what is Memoization?
+Answer: .memoization is a technique for speeding up applications by caching.
+.javascript
+.React useMemo Hook.
+
+# 24. what is Higherr Order Component?
+Answer: .it is a component.
+.it take another component as an argument.
+.it return a new component.
+
+# 25. what is Life cycle method in React?
+Answer: In React Each component has three phases that is Mounting,Updating, and Unmounting.
+
+1.Mounting:
+Mounting means putting elements into the DOM.
+
+2.Updating:
+Updating means updating a component.
+
+3.Unmounting:
+Unmounting means removed from the Dom.
+
+# 26. what is Readux Thunk?
+Answer: .Redux Thunk is a middleware. its is a function that return another function.
+
+And the purpose of middleware is to intercept an action before it reaches the reducer.
+
+Instead of sending the action to the reducer directly.
+
+First it will go to middleware by thunk and if need some change like type, payload then do it and then pass to reducers.
+
+# 27. what is Lexicial scoping?
+Answer: Using lexial scoping, In inner function we can access the variable of the outer fuunction.
+.mean we can access the variable of the outer function in the inner function.
+.The child function is seen to have lexically bound the parent function.
+.it is also called static scoping.
+
+# 28. what is Pure function?
+Answer: .A pure function is a function that always returns the same result if the same arguments are passed.
+.pure function is function that accept argument and return value.
+.it is depend upon what argument are you passing.
+.it does not modifying any value.
+.its output doesn't get affected by other values and state.
+
+
+# 29. what is Pure component in Class Component?
+Answer: .Pure Component is similar to component but it skips re-renders for same props and state.
+.PureComponent is a subclass of compontns
