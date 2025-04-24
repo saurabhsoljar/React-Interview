@@ -399,3 +399,7 @@ Answer: .A pure function is a function that always returns the same result if th
 # 29. what is Pure component in Class Component?
 Answer: .Pure Component is similar to component but it skips re-renders for same props and state.
 .PureComponent is a subclass of compontns
+
+# 30. what is React Router?
+Answer: .React Router is a standard library for routing in React.
+.it enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
