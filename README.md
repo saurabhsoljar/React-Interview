@@ -403,3 +403,8 @@ Answer: .Pure Component is similar to component but it skips re-renders for same
 # 30. what is React Router?
 Answer: .React Router is a standard library for routing in React.
 .it enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+
+# 31. what is React Router Dom?
+Answer: .React Router Dom is a library for routing in react.
+.it is a library for routing in react.
+.
