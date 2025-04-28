@@ -407,4 +407,7 @@ Answer: .React Router is a standard library for routing in React.
 # 31. what is React Router Dom?
 Answer: .React Router Dom is a library for routing in react.
 .it is a library for routing in react.
-.
+
+# 32. what is React Router Dom V6?
+Answer: .React Router Dom V6 is a library for routing in react. 
+.it is a library for routing in react.
